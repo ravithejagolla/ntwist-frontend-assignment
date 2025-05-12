@@ -52,6 +52,8 @@ open sort.html
         (or)
 Right Click on html files open with Live-Server
 
+Deployed Link:https://ntwist-frontend-assignment3.netlify.app/
+
 
 **Folder Structure:**
 
