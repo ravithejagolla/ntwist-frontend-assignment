@@ -1,4 +1,59 @@
 /* Base Styles */
+/* Sidebar */
+.sidebar {
+    background: linear-gradient(135deg, #393364, #1b242c);
+    width: 250px;
+    min-height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 30px 20px;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 0 10px 10px 0;
+}
+
+.sidebar h2 {
+    margin-bottom: 30px;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 1px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 20px 0;
+}
+
+.sidebar a {
+    display: block;
+    color: #ecf0f1;
+    text-decoration: none;
+    padding: 12px 15px;
+    border-radius: 8px;
+    transition: background 0.3s ease, transform 0.2s ease;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.sidebar a:hover {
+    background-color: slateblue;
+    color: white;
+    transform: translateX(5px);
+}
+
+.sidebar a.active {
+    background-color: SlateBlue;
+    font-weight: bold;
+    color: white;
+}
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: #f0f4f8;
