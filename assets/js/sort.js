@@ -10,3 +10,7 @@ function sortList() {
       // Append sorted items
       items.forEach(item => list.appendChild(item));
 }
+
+function toggleSidebar() {
+    document.querySelector('.sidebar').classList.toggle('active');
+  }

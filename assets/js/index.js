@@ -16,3 +16,7 @@
       startTime = null; //set time to null
       timer.textContent = '';
     });
+
+    function toggleSidebar() {
+      document.querySelector('.sidebar').classList.toggle('active');
+    }
